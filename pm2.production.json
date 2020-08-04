@@ -1,0 +1,9 @@
+{
+  "name": "scuff-server",
+  "min_uptime": "10000",
+  "max_restarts": "10",
+  "script": "./src/main.js",
+  "merge_logs": true,
+  "instances": "1",
+  "exec_mode": "cluster"
+}

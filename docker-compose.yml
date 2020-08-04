@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  server:
+    image: scuff/server
+    container_name: scuff-server
+    build:
+      context: ./
+      dockerfile: docker/server/Dockerfile
+    networks:
+      - scuff
+    environment:
+      - API_HOST
+      - API_PORT
+      - NODE_ENV
+    entrypoint: ['bash', '-c', 'npm start']
+
+
+networks:
+  scuff:

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": false,
+    "noEmit": true,
+    "preserveSymlinks": true,
+  },
+  "include": [
+    "src",
+    "test",
+    "*.js",
+    "*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

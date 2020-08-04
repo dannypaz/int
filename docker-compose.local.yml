@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  server:
+    volumes:
+      - './src:/home/app/src'
+      - './test:/home/app/test'
+      - './package.json:/home/app/package.json'
+      - './tsconfig.json:/home/app/tsconfig.json'
+      - './pm2.json:/home/app/pm2.json'
+      - './pm2.production.json:/home/app/pm2.production.json'
+    ports:
+      - '8080:8080'
+    entrypoint: ['bash', '-c', 'npm run dev']
+
+
+networks:
+  scuff:
