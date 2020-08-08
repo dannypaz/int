@@ -33,6 +33,7 @@ You can then navigate to http://localhost:8080/<your-valid-route>
 Per specification:
 
 | METHOD | ROUTE | PARAMS |
+| ---- | ---- | ---- |
 | GET | /accounts?accountId=????? | can add as many `accountId` query params as you want |
 | POST | /transactions | An array of Transaction Commands (please see reference)
 
