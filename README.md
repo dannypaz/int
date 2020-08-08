@@ -1,4 +1,4 @@
-# Scuff - A Scratch Interview Take-Home Project
+# Scuff
 
 ### Before you begin
 
